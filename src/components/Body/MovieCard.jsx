@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import ReactPlayer from '../ReactPlayer/ReactPlayer'
 import './MovieCard.css'
 import React from 'react'
 
