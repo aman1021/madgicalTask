@@ -26,7 +26,7 @@ const Body = () => {
 
       <div className="pagination">
         {Array.from({ length: Math.ceil(movieList.length / itemsPerPage) }).map((_, index) => (
-          <button key={index + 1} onClick={() => paginate(index + 1)}>
+          <button className={index+1===currentPage && "active"} key={index + 1} onClick={() => paginate(index + 1)}>
             {index + 1}
           </button>
         ))}
