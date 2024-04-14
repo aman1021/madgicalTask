@@ -1,0 +1,46 @@
+.moviecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:450px;
+    width:400px;
+    margin-top: 30px;
+}
+
+.video-container{
+    height:400px;
+    width:400px;
+    border-radius: 10px;
+}
+
+video{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.card-name{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+
+.movie-name{
+    font-size: 16px;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 3px 6px;
+    background-color: #0fac63; 
+    color: #fff;
+    text-decoration: none; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.play-button:hover {
+    background-color: #0056b3; 
+}

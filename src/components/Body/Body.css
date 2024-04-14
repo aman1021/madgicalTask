@@ -1,0 +1,31 @@
+.cards {
+    margin: 20px;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #0b66e5;
+    border: none;
+    color: #fffdfd;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pagination button:active {
+    background-color: #ececec;
+    color: #2871ef;
+  }
+  
